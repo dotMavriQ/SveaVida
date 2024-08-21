@@ -1,0 +1,33 @@
+[
+    {
+        "Placename": "Lisbon",
+        "Long": -9.1393,
+        "Lat": 38.7223,
+        "Products": [
+            "Snus",
+            "Godis"
+        ],
+        "Link": "https://example.com/lisbon",
+        "GMaps": "https://maps.google.com/?q=Lisbon"
+    },
+    {
+        "Placename": "Porto",
+        "Long": -8.6291,
+        "Lat": 41.1579,
+        "Products": [
+            "Tacohyllan"
+        ],
+        "Link": "https://example.com/porto",
+        "GMaps": "https://maps.google.com/?q=Porto"
+    },
+    {
+        "Placename": "Aveiro",
+        "Long": -8.6455,
+        "Lat": 40.6443,
+        "Products": [
+            "Balkanhyllan"
+        ],
+        "Link": "https://example.com/aveiro",
+        "GMaps": "https://maps.google.com/?q=Aveiro"
+    }
+]
