@@ -1,0 +1,44 @@
+# Name of the workflow
+name: Deploy static content to Pages
+
+# Trigger the workflow on push events to the master branch and allow manual triggers
+on:
+  push:
+    branches: ["master"]  # Ensure this matches the default branch if it's not "master"
+  workflow_dispatch:       # Allows manual triggering of the workflow
+
+# Permissions setting for the GitHub token used in this workflow
+permissions:
+  contents: read         # Necessary for actions/checkout
+  pages: write           # Necessary to deploy to GitHub Pages
+  id-token: write        # If your deployment needs authentication; may be omitted if not
+
+# Manage concurrency to prevent race conditions during deployments
+concurrency:
+  group: "pages"
+  cancel-in-progress: false  # Avoid cancelling ongoing deployments
+
+# Define the jobs to execute
+jobs:
+  deploy:
+    # Environment settings to provide additional metadata if required
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}  # This will show the URL of the deployed site in the action log
+    runs-on: ubuntu-latest  # The type of virtual machine to use
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4  # Checks out your repository under $GITHUB_WORKSPACE, so your workflow can access it
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5  # Configures GitHub Pages deployment environment
+
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'  # Specifies that the whole repository content should be uploaded
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4  # Handles the deployment of the artifacts to GitHub Pages
