@@ -1,33 +1,62 @@
 [
     {
-        "Placename": "Lisbon",
-        "Long": -9.1393,
-        "Lat": 38.7223,
+        "Placename": "IKEA Alfragide",
+        "Long": -9.219274,
+        "Lat": 38.731176,
         "Products": [
-            "Snus",
-            "Godis"
+            "Svenska Varor"
         ],
-        "Link": "https://example.com/lisbon",
-        "GMaps": "https://maps.google.com/?q=Lisbon"
+        "Link": "https://www.ikea.com/pt/pt/stores/alfragide/",
+        "GMaps": "https://www.google.com/maps/place/IKEA+Alfragide/"
     },
     {
-        "Placename": "Porto",
-        "Long": -8.6291,
-        "Lat": 41.1579,
+        "Placename": "IKEA Loures",
+        "Long": -9.140631,
+        "Lat": 38.833928,
         "Products": [
-            "Tacohyllan"
+            "Svenska Varor"
         ],
-        "Link": "https://example.com/porto",
-        "GMaps": "https://maps.google.com/?q=Porto"
+        "Link": "https://www.ikea.com/pt/pt/stores/loures/",
+        "GMaps": "https://www.google.com/maps/place/IKEA+Loures/"
     },
     {
-        "Placename": "Aveiro",
-        "Long": -8.6455,
-        "Lat": 40.6443,
+        "Placename": "IKEA Matosinhos",
+        "Long": -8.647081,
+        "Lat": 41.204231,
         "Products": [
-            "Balkanhyllan"
+            "Svenska Varor"
         ],
-        "Link": "https://example.com/aveiro",
-        "GMaps": "https://maps.google.com/?q=Aveiro"
+        "Link": "https://www.ikea.com/pt/pt/stores/matosinhos/",
+        "GMaps": "https://www.google.com/maps/place/IKEA+Matosinhos/"
+    },
+    {
+        "Placename": "IKEA Braga",
+        "Long": -8.415568,
+        "Lat": 41.544485,
+        "Products": [
+            "Svenska Varor"
+        ],
+        "Link": "https://www.ikea.com/pt/pt/stores/braga/",
+        "GMaps": "https://www.google.com/maps/place/IKEA+Braga/"
+    },
+    {
+        "Placename": "Maravilhas Nordicas",
+        "Long": -9.350334,
+        "Lat": 38.693505,
+        "Products": [
+            "Snus"
+        ],
+        "Link": "https://www.google.com/maps/place/Maravilhas+N%C3%B3rdicas/@38.6935045,-9.3552047,17z/data=!3m1!4b1!4m6!3m5!1s0xd1ec9c596d13375:0x2a150b1b1b1400b!8m2!3d38.6935046!4d-9.3503338!16s%2Fg%2F11smnswn95?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D",
+        "GMaps": "https://www.google.com/maps/place/Maravilhas+N%C3%B3rdicas/"
+    },
+    {
+        "Placename": "Go Minimarket EU",
+        "Long": -8.670144,
+        "Lat": 37.109636,
+        "Products": [
+            "Snus"
+        ],
+        "Link": "https://www.google.com/maps/place/Gominimarket.eu/@37.1020385,-8.7208078,14z/data=!4m10!1m2!2m1!1slagos+mini+market+swedish+food+lagos!3m6!1s0xd1b31625d8bf733:0x622add008469dc45!8m2!3d37.1096358!4d-8.6701439!15sCiRsYWdvcyBtaW5pIG1hcmtldCBzd2VkaXNoIGZvb2QgbGFnb3NaJiIkbGFnb3MgbWluaSBtYXJrZXQgc3dlZGlzaCBmb29kIGxhZ29zkgEOY29sZF9jdXRfc3RvcmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmtja3N6TjI1blJSQULgAQA!16s%2Fg%2F1hc3383sy?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D",
+        "GMaps": "https://www.google.com/maps/place/Gominimarket.eu/"
     }
 ]
