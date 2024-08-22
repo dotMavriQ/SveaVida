@@ -31,6 +31,10 @@
         .sidebar h1, .sidebar label {
             color: white;
         }
+        #productForm label {
+            display: block; /* Ensure labels are listed vertically */
+            margin-bottom: 8px; /* Space between checkboxes */
+        }
     </style>
 </head>
 <body class="bg-[#282828] text-gray-400">
@@ -38,9 +42,9 @@
         <img src="sveavidalogo.png" alt="SveaVida Logo" class="logo" style="width: 100%; height: auto; margin-bottom: 20px;">
         <h1>SveaVida</h1>
         <form id="productForm">
-            <label class="block mb-2"><input type="checkbox" name="grädde"> Grädde</label>
-            <label class="block mb-2"><input type="checkbox" name="snus"> Snus</label>
-            <label class="block mb-2"><input type="checkbox" name="svenska varor"> Svenska varor</label>
+            <label><input type="checkbox" name="grädde"> Grädde</label>
+            <label><input type="checkbox" name="snus"> Snus</label>
+            <label><input type="checkbox" name="svenska varor"> Svenska varor</label>
         </form>
     </div>
     <div id="map"></div>
