@@ -27,9 +27,9 @@ const getPinIcon = (categoryId: string | undefined): Icon => {
 
     return new Icon({
         iconUrl,
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -32],
+        iconSize: [56, 56],     // Increased to 56x56 for much bigger pins
+        iconAnchor: [28, 56],   // Adjusted anchor point (half-width, full-height)
+        popupAnchor: [0, -56],  // Adjusted popup position for larger icon
     });
 };
 
