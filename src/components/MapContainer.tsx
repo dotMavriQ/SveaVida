@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { MapContainer as LeafletMapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from 'leaflet';
 import { Location } from '../types';
@@ -10,13 +10,28 @@ interface MapContainerProps {
     language: 'en' | 'se' | 'pt';
 }
 
-// Create a custom pin icon
-const pinIcon = new Icon({
-    iconUrl: '/images/pin.svg',  // Make sure this file exists in your public/images folder
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-});
+// Map for category-specific pin icons
+const categoryPinMap: Record<string, string> = {
+    'ikea': '/assets/images/pin_IKEA.png',
+    'aivar': '/assets/images/pin_aivar.png',
+    'nordic_cuisine': '/assets/images/pin_nordiccuisine.png',
+    'svenska-ravaror': '/assets/images/pin_swedishpastries.png'
+    // Add other category-to-pin mappings as needed
+};
+
+// Create a function to get the correct pin icon for each category
+const getPinIcon = (categoryId: string | undefined): Icon => {
+    const iconUrl = categoryId && categoryPinMap[categoryId]
+        ? categoryPinMap[categoryId]
+        : '/assets/images/pin_cream.png'; // Default fallback pin
+
+    return new Icon({
+        iconUrl,
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32],
+    });
+};
 
 const MapContainer: React.FC<MapContainerProps> = ({ locations, onPinClick, language }) => {
     // Center of Portugal approximate coordinates
@@ -39,7 +54,7 @@ const MapContainer: React.FC<MapContainerProps> = ({ locations, onPinClick, lang
                     <Marker
                         key={location.id}
                         position={{ lat: location.geoposition.lat, lng: location.geoposition.lon }}
-                        icon={pinIcon}
+                        icon={getPinIcon(location.categoryId)}
                         eventHandlers={{
                             click: () => onPinClick(location)
                         }}
