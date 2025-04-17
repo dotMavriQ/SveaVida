@@ -1,0 +1,99 @@
+{
+    "category": {
+        "id": "svenska-ravaror",
+        "name": {
+            "en": "Swedish goods",
+            "se": "Svenska råvaror",
+            "pt": "Produtos suecos"
+        }
+    },
+    "locations": [
+        {
+            "id": "maravilhas-nordicas",
+            "name": "Maravilhas Nórdicas",
+            "geoposition": {
+                "lat": 38.6945,
+                "lon": -9.3563
+            },
+            "located": "https://www.google.com/maps?q=38.6945,-9.3563",
+            "thumbnail": "https://maravilhasnordicas.files.wordpress.com/2021/12/cropped-maravilhasnordicaslogo.jpg",
+            "website": "https://maravilhasnordicas.wordpress.com/",
+            "socials": {
+                "facebook": "https://www.facebook.com/p/Maravilhas-Nordicas-100066646728790/",
+                "instagram": "https://www.instagram.com/maravilhasnordicas/"
+            },
+            "open_hours": "Please check Google for current hours",
+            "tags": [
+                "snus",
+                "gravlax",
+                "knäckebröd",
+                "lingonsylt",
+                "julmust",
+                "kex",
+                "fika",
+                "nordic"
+            ],
+            "description": {
+                "en": "A Nordic mini-market in Parede offering Swedish and Scandinavian food, snacks, and seasonal items.",
+                "se": "En nordisk minimarknad i Parede med svenska och skandinaviska livsmedel, snacks och säsongsvaror.",
+                "pt": "Uma mini-mercearia nórdica em Parede com alimentos suecos e escandinavos, lanches e itens sazonais."
+            }
+        },
+        {
+            "id": "go-minimarket",
+            "name": "Go Minimarket",
+            "geoposition": {
+                "lat": 37.1369,
+                "lon": -8.5383
+            },
+            "located": "https://www.google.com/maps?q=37.1369,-8.5383",
+            "thumbnail": "https://hagsdesign.com/wp-content/uploads/2021/06/go-minimarket.jpg",
+            "website": null,
+            "socials": {
+                "facebook": "https://www.facebook.com/gominimarket.eu/",
+                "instagram": null
+            },
+            "open_hours": "Tue–Fri: 10:00–13:00, 14:00–17:00; Sat: 10:00–14:00",
+            "tags": [
+                "Swedish crisps",
+                "cheese doodles",
+                "peanut butter rings",
+                "Dutch",
+                "Scandi",
+                "Asia",
+                "South Africa"
+            ],
+            "description": {
+                "en": "A specialty minimarket in Portimão offering a variety of international snacks and goods, including Swedish products.",
+                "se": "En specialiserad minimarknad i Portimão som erbjuder ett urval av internationella snacks och varor, inklusive svenska produkter.",
+                "pt": "Um minimercado especializado em Portimão que oferece uma variedade de lanches e produtos internacionais, incluindo produtos suecos."
+            }
+        },
+        {
+            "id": "dmaxcom",
+            "name": "Dmaxcom",
+            "geoposition": {
+                "lat": 37.1395,
+                "lon": -8.5377
+            },
+            "located": "https://www.google.com/maps?q=37.1395,-8.5377",
+            "thumbnail": null,
+            "website": null,
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": null,
+            "tags": [
+                "Swedish goods",
+                "electronics",
+                "gadgets"
+            ],
+            "description": {
+                "en": "A store in Portimão offering Swedish goods and electronics.",
+                "se": "En butik i Portimão som erbjuder svenska varor och elektronik.",
+                "pt": "Uma loja em Portimão que oferece produtos suecos e eletrônicos."
+            }
+        }
+    ]
+}

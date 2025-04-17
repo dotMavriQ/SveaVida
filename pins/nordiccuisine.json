@@ -1,0 +1,121 @@
+{
+    "category": {
+        "id": "nordic_cuisine",
+        "name": {
+            "en": "Nordic Cuisine",
+            "se": "Nordisk mat",
+            "pt": "Cozinha nórdica"
+        }
+    },
+    "locations": [
+        {
+            "id": "flat_cafe_lisbon",
+            "name": "Flat Café",
+            "geoposition": {
+                "lat": 38.7125,
+                "lon": -9.1456
+            },
+            "located": "https://www.google.com/maps?q=38.7125,-9.1456",
+            "thumbnail": "https://thespaces.com/wp-content/uploads/2021/03/Flat-Cafe-Lisbon-Scandinavian-cuisine-1.jpg",
+            "website": "https://flat.cafe.lisbon.tilda.ws/",
+            "socials": {
+                "facebook": null,
+                "instagram": "https://www.instagram.com/flat.cafe.lisbon/"
+            },
+            "open_hours": "Monday-Sunday: 09:00 - 17:00",
+            "tags": [
+                "smørrebrød",
+                "open sandwiches",
+                "Scandinavian toast",
+                "coffee",
+                "brunch"
+            ],
+            "description": {
+                "en": "Flat Café offers Scandinavian open toasts made with local ingredients, specialty coffee, and natural wine, all in a cozy atmosphere.",
+                "se": "Flat Café erbjuder skandinaviska öppna smörgåsar med lokala ingredienser, specialkaffe och naturvin i en mysig atmosfär.",
+                "pt": "Flat Café oferece tostas abertas escandinavas feitas com ingredientes locais, café especial e vinho natural, tudo em um ambiente acolhedor."
+            }
+        },
+        {
+            "id": "hygge_kaffe_lisbon",
+            "name": "Hygge Kaffe",
+            "geoposition": {
+                "lat": 38.7169,
+                "lon": -9.1399
+            },
+            "located": "https://www.google.com/maps?q=38.7169,-9.1399",
+            "thumbnail": "https://hyggekaffe.pt/wp-content/uploads/2021/03/hygge-kaffe.jpg",
+            "website": "https://hyggekaffe.pt/en/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": "Monday-Sunday: 08:00 - 18:00",
+            "tags": [
+                "brunch",
+                "coffee",
+                "pastries",
+                "Scandinavian food"
+            ],
+            "description": {
+                "en": "Hygge Kaffe is a charming café inspired by the Nordic concept of well-being, offering a diverse menu with international and local flavors.",
+                "se": "Hygge Kaffe är ett charmigt café inspirerat av det nordiska välbefinnandekonceptet, med en varierad meny av internationella och lokala smaker.",
+                "pt": "Hygge Kaffe é um café encantador inspirado no conceito nórdico de bem-estar, oferecendo um menu diversificado com sabores internacionais e locais."
+            }
+        },
+        {
+            "id": "akvavit_vilamoura",
+            "name": "Akvavit",
+            "geoposition": {
+                "lat": 37.0775,
+                "lon": -8.1156
+            },
+            "located": "https://www.google.com/maps?q=37.0775,-8.1156",
+            "thumbnail": "https://restauranteakvavit.com/wp-content/uploads/2020/11/akvavit-vilamoura.jpg",
+            "website": "https://restauranteakvavit.com/",
+            "socials": {
+                "facebook": "https://www.facebook.com/RestauranteAkvavit/",
+                "instagram": "https://www.instagram.com/restaurante.akvavit/"
+            },
+            "open_hours": "Monday-Sunday: 09:00 - 02:00",
+            "tags": [
+                "seafood",
+                "Nordic dishes",
+                "fine dining",
+                "marina view"
+            ],
+            "description": {
+                "en": "Akvavit Restaurant blends Swedish and Portuguese culinary traditions, offering fresh seafood and Nordic specialties in a marina setting.",
+                "se": "Restaurang Akvavit kombinerar svenska och portugisiska kulinariska traditioner, med färska skaldjur och nordiska specialiteter vid marinan.",
+                "pt": "O Restaurante Akvavit combina tradições culinárias suecas e portuguesas, oferecendo frutos do mar frescos e especialidades nórdicas em um ambiente de marina."
+            }
+        },
+        {
+            "id": "polaroskas_quinta_pisao",
+            "name": "Polaroskas",
+            "geoposition": {
+                "lat": 38.7540,
+                "lon": -9.4440
+            },
+            "located": "https://www.google.com/maps?q=38.7540,-9.4440",
+            "thumbnail": "https://scontent.flis5-4.fna.fbcdn.net/v/t39.30808-6/327452181_851841139238370_3208221055215931900_n.jpg",
+            "website": null,
+            "socials": {
+                "facebook": "https://www.facebook.com/Polaroskasstreetfood/",
+                "instagram": null
+            },
+            "open_hours": "Varies by event",
+            "tags": [
+                "street food",
+                "Scandinavian snacks",
+                "events",
+                "festivals"
+            ],
+            "description": {
+                "en": "Polaroskas serves Scandinavian-inspired street food at various events and festivals, bringing Nordic flavors to Portugal.",
+                "se": "Polaroskas serverar skandinaviskt inspirerad gatumat på olika evenemang och festivaler, och för med sig nordiska smaker till Portugal.",
+                "pt": "Polaroskas serve comida de rua inspirada na Escandinávia em vários eventos e festivais, trazendo sabores nórdicos para Portugal."
+            }
+        }
+    ]
+}

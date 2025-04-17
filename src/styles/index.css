@@ -1,0 +1,49 @@
+/* Base CSS for SveaVida */
+:root {
+    --primary-color: #006aa7;
+    /* Swedish blue */
+    --secondary-color: #fecc00;
+    /* Swedish yellow */
+    --text-color: #333333;
+    --background-color: #f5f5f5;
+    --sidebar-width: 320px;
+    --header-height: 60px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

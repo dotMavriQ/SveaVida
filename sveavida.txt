@@ -1,0 +1,125 @@
+# SveaVida Project Implementation Plan
+
+## Project Overview
+A web application showing Swedish presence in Portugal with an interactive map, multilingual support, and filterable categories of Swedish establishments/products.
+
+## Tech Stack
+- Frontend Framework: React
+- Map: Leaflet.js
+- CSS: Plain CSS
+- Icons: FlagCDN for language flags
+- Fonts: Fjalla One paired with a complementary Lusitanian serif (possibly Lora or Merriweather)
+- Data Storage: Simple JSON files
+
+## Implementation Timeline
+
+### Phase 1: Project Setup (Days 1-2)
+- Initialize project with chosen frontend framework
+- Set up project structure
+- Install dependencies (Leaflet.js, etc.)
+- Implement favicon from provided zip
+- Set up basic styling and font pairing
+
+### Phase 2: Core UI Components (Days 3-5)
+- Create sidebar layout
+- Implement logo placement
+- Add header and subtitle
+- Create language switcher with FlagCDN
+- Build category checkboxes with styling
+
+### Phase 3: Map Implementation (Days 6-8)
+- Set up Leaflet.js
+- Center map on Portugal
+- Implement basic pin functionality
+- Connect pin images from assets folder
+
+### Phase 4: Data Integration (Days 9-11)
+- Set up JSON data structure
+- Create data loading mechanism
+- Link category selection to data filtering
+- Implement pin population based on filtered data
+
+### Phase 5: Language Integration (Days 12-14)
+- Set up multilingual support system (i18n)
+- Create language files for EN, SE, PT
+- Connect language switcher to translation system
+- Ensure all UI elements respect chosen language
+
+### Phase 6: Testing & Refinement (Days 15-16)
+- Cross-browser testing
+- Mobile responsiveness
+- Performance optimization
+- Bug fixes
+
+## Technical Implementation Details
+
+### Component Structure
+1. App (Root)
+   - Sidebar
+     - Logo
+     - Header/Subtitle
+     - LanguageSwitcher
+     - CategoryFilter
+   - MapContainer
+   - PinDetailModal
+
+### Data Structure
+JSON files in pins folder with the following structure:
+```json
+{
+  "category": {
+    "id": "category-id",
+    "name": {
+      "en": "Name in English",
+      "se": "Name in Swedish",
+      "pt": "Name in Portuguese"
+    }
+  },
+  "locations": [
+    {
+      "id": "location-id",
+      "name": "Location Name",
+      "geoposition": {
+        "lat": 38.736946,
+        "lon": -9.142685
+      },
+      "located": "https://www.google.com/maps?q=38.736946,-9.142685",
+      "thumbnail": "url-to-image",
+      "website": "website-url",
+      "socials": {
+        "facebook": "facebook-url",
+        "instagram": "instagram-url"
+      },
+      "open_hours": "Opening hours information or object with detailed schedule",
+      "tags": ["tag1", "tag2", "tag3"],
+      "description": {
+        "en": "Description in English",
+        "se": "Description in Swedish",
+        "pt": "Description in Portuguese"
+      }
+    }
+  ]
+}
+```
+
+### Key Functions
+- Language switching: Updates all text content based on selected language
+- Category filtering: Shows/hides pins based on checked categories
+  - Each JSON file represents a category with multiple locations
+  - Category checkboxes control visibility of all pins within that category
+- Map interaction: Clicking pins shows detailed information in a modal or sidebar
+- Data loading: Dynamically loads JSON files from the pins directory
+
+### Data Processing Flow
+1. Load all JSON files from the pins directory on application startup
+2. Extract categories for the sidebar filter checkboxes
+3. Process all locations across categories into map pins
+4. When user toggles category filters, update visible pins accordingly
+5. When user changes language, update all UI text based on selected language code
+
+### KISS/YAGNI Principles Applied
+- Using plain JSON files instead of a database
+- Simple checkbox filtering without complex search
+- Minimal dependencies
+- No unnecessary features beyond core requirements
+- Direct access to JSON data without API layer
