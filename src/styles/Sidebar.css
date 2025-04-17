@@ -39,15 +39,37 @@
 }
 
 .language-option {
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
     cursor: pointer;
-    padding: 5px;
+    padding: 6px 10px;
     border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    transition: all 0.2s ease;
+}
+
+.language-option:hover {
+    background-color: #f0f0f0;
 }
 
 .language-option.active {
     background-color: var(--primary-color);
     color: white;
+    border-color: var(--primary-color);
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.lang-code {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .category-filter h3 {

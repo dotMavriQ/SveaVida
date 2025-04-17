@@ -11,6 +11,13 @@ interface SidebarProps {
     onLanguageChange: (language: 'en' | 'se' | 'pt') => void;
 }
 
+// Flag country codes mapping
+const flagCountryCodes: Record<string, string> = {
+    en: 'gb', // Great Britain flag for English
+    se: 'se', // Sweden flag
+    pt: 'pt'  // Portugal flag
+};
+
 const Sidebar: React.FC<SidebarProps> = ({
     categories,
     selectedCategories,
@@ -33,24 +40,20 @@ const Sidebar: React.FC<SidebarProps> = ({
             </div>
 
             <div className="language-switcher">
-                <div
-                    className={`language-option ${language === 'en' ? 'active' : ''}`}
-                    onClick={() => handleLanguageChange('en')}
-                >
-                    🇬🇧 EN
-                </div>
-                <div
-                    className={`language-option ${language === 'se' ? 'active' : ''}`}
-                    onClick={() => handleLanguageChange('se')}
-                >
-                    🇸🇪 SE
-                </div>
-                <div
-                    className={`language-option ${language === 'pt' ? 'active' : ''}`}
-                    onClick={() => handleLanguageChange('pt')}
-                >
-                    🇵🇹 PT
-                </div>
+                {['en', 'se', 'pt'].map((lang) => (
+                    <div
+                        key={lang}
+                        className={`language-option ${language === lang ? 'active' : ''}`}
+                        onClick={() => handleLanguageChange(lang as 'en' | 'se' | 'pt')}
+                    >
+                        <img
+                            src={`https://flagcdn.com/${flagCountryCodes[lang]}.svg`}
+                            alt={`${lang.toUpperCase()} flag`}
+                            className="flag-icon"
+                        />
+                        <span className="lang-code">{lang.toUpperCase()}</span>
+                    </div>
+                ))}
             </div>
 
             <div className="category-filter">
