@@ -11,19 +11,31 @@
     flex-direction: column;
 }
 
-.logo {
-    width: 160px;
-    height: auto;
+/* Add logo and header container */
+.logo-header-container {
+    display: flex;
+    align-items: center;
     margin-bottom: 1.5rem;
 }
 
+.logo {
+    width: 40px;
+    /* Reduced size from 60px to 40px */
+    height: auto;
+    margin-right: 0.75rem;
+    /* Reduced margin */
+    object-fit: contain;
+}
+
 .header {
-    margin-bottom: 2rem;
+    flex: 1;
 }
 
 .header h1 {
     color: var(--primary-color);
     font-size: 1.8rem;
+    margin-bottom: 0.25rem;
+    /* Reduced spacing */
 }
 
 .header h2 {
@@ -104,5 +116,15 @@
 
     .app-container {
         flex-direction: column;
+    }
+
+    .logo-header-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo {
+        width: 45px;
+        margin-right: 0.75rem;
     }
 }

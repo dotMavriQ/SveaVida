@@ -34,9 +34,16 @@ const Sidebar: React.FC<SidebarProps> = ({
 
     return (
         <div className="sidebar">
-            <div className="header">
-                <h1>{t('appTitle')}</h1>
-                <h2>{t('appSubtitle')}</h2>
+            <div className="logo-header-container">
+                <img
+                    src="/assets/images/SveaVidaLogo.png"
+                    alt="SveaVida Logo"
+                    className="logo"
+                />
+                <div className="header">
+                    <h1>{t('appTitle')}</h1>
+                    <h2>{t('appSubtitle')}</h2>
+                </div>
             </div>
 
             <div className="language-switcher">
