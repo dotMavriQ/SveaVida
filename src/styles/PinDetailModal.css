@@ -68,6 +68,22 @@
     margin-bottom: 1rem;
 }
 
+.description a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.description a:hover {
+    text-decoration: none;
+}
+
+/* Visual indication that links open in new tabs */
+.description a:after {
+    content: " ↗";
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
 .info-section {
     margin-bottom: 1rem;
 }

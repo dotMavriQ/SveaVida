@@ -16,8 +16,8 @@ const categoryPinMap: Record<string, string> = {
     'ikea': '/assets/images/pin_IKEA.png',
     'aivar': '/assets/images/pin_aivar.png',
     'nordic_cuisine': '/assets/images/pin_nordiccuisine.png',
-    'svenska-ravaror': '/assets/images/pin_swedishpastries.png',
-    'snus': '/assets/images/pin_snus.png' // Add Snus pin
+    'svenska-ravaror': '/assets/images/pin_swedishgoods.png',  // Updated to use swedishgoods pin
+    'snus': '/assets/images/pin_snus.png'
 };
 
 // This component handles zoom level changes and updates pin sizes

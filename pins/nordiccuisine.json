@@ -16,7 +16,7 @@
                 "lon": -9.1456
             },
             "located": "https://www.google.com/maps?q=38.7125,-9.1456",
-            "thumbnail": "https://thespaces.com/wp-content/uploads/2021/03/Flat-Cafe-Lisbon-Scandinavian-cuisine-1.jpg",
+            "thumbnail": "https://www.luxurytravelmagazine.com/files/593/0/83110/flat-cafe_bu.jpg",
             "website": "https://flat.cafe.lisbon.tilda.ws/",
             "socials": {
                 "facebook": null,
@@ -44,7 +44,7 @@
                 "lon": -9.1399
             },
             "located": "https://www.google.com/maps?q=38.7169,-9.1399",
-            "thumbnail": "https://hyggekaffe.pt/wp-content/uploads/2021/03/hygge-kaffe.jpg",
+            "thumbnail": "https://cdn.website.dish.co/media/9b/8e/3704879/Hygge-Kaffe-216551302-872063567075967-7087377286214186115-n-jpg.jpg",
             "website": "https://hyggekaffe.pt/en/",
             "socials": {
                 "facebook": null,
@@ -67,10 +67,10 @@
             "id": "akvavit_vilamoura",
             "name": "Akvavit",
             "geoposition": {
-                "lat": 37.0775,
-                "lon": -8.1156
+                "lat": 37.0776449,
+                "lon": -8.1219039
             },
-            "located": "https://www.google.com/maps?q=37.0775,-8.1156",
+            "located": "https://www.google.com/maps/place/Akvavit/@37.077585,-8.1219146,17z/data=!4m6!3m5!1s0xd1ab5921c34724b:0x2c255b691fcfcb9c!8m2!3d37.0776449!4d-8.1219039!16s%2Fg%2F1tczrmdz?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D",
             "thumbnail": "https://scontent.flis5-3.fna.fbcdn.net/v/t39.30808-6/491272204_122225894036231407_4124798442787215306_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fu5ybfJgeIkQ7kNvwGg6SnJ&_nc_oc=AdlFtD0pez0rpGuhHNuE5StgFh0IwQCPttlXAcrGy19kQ7PKxOwsEZqfHLfy1KSFyFE&_nc_zt=23&_nc_ht=scontent.flis5-3.fna&_nc_gid=7yGlt_-dpdOD7qEHWVwkSQ&oh=00_AfERwsAFwM0c858HoDb3NXxJS5rfcrz3v15LPIsZnP1hkg&oe=680755D8",
             "website": "https://restauranteakvavit.com/",
             "socials": {

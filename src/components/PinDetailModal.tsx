@@ -2,12 +2,34 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { EnhancedLocation } from '../types';
 import '../styles/PinDetailModal.css';
+import DOMPurify from 'dompurify';
 
 interface PinDetailModalProps {
     location: EnhancedLocation;
     onClose: () => void;
     language: 'en' | 'se' | 'pt';
 }
+
+// Function to ensure all links open in new tabs
+const sanitizeAndProcessLinks = (html: string): string => {
+    // First sanitize the HTML
+    const sanitizedHtml = DOMPurify.sanitize(html, {
+        ADD_ATTR: ['target', 'rel'] // Allow these attributes
+    });
+
+    // Create a temporary DOM element to manipulate the links
+    const doc = new DOMParser().parseFromString(sanitizedHtml, 'text/html');
+
+    // Select all links and add target="_blank" and rel="noopener noreferrer"
+    const links = doc.querySelectorAll('a');
+    links.forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+    });
+
+    // Return the processed HTML
+    return doc.body.innerHTML;
+};
 
 const PinDetailModal: React.FC<PinDetailModalProps> = ({
     location,
@@ -45,7 +67,16 @@ const PinDetailModal: React.FC<PinDetailModalProps> = ({
                 )}
 
                 <div className="modal-body">
-                    <p className="description">{location.description[language]}</p>
+                    {location.description && (
+                        <div
+                            className="description"
+                            dangerouslySetInnerHTML={{
+                                __html: sanitizeAndProcessLinks(
+                                    location.description[language] || location.description.en
+                                )
+                            }}
+                        />
+                    )}
 
                     {/* Display categories */}
                     {location.categories && location.categories.length > 0 && (

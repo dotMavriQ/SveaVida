@@ -55,18 +55,18 @@
             },
             "open_hours": "Tue–Fri: 10:00–13:00, 14:00–17:00; Sat: 10:00–14:00",
             "tags": [
-                "Swedish crisps",
+                "snus",
+                "nicotine pouches",
+                "swedish crisps",
                 "cheese doodles",
                 "peanut butter rings",
-                "Dutch",
-                "Scandi",
-                "Snus",
-                "Nicotine Pouches"
+                "dutch",
+                "scandi"
             ],
             "description": {
-                "en": "A specialty minimarket in Portimão offering a variety of international snacks and goods, including Swedish products.",
-                "se": "En specialiserad minimarknad i Portimão som erbjuder ett urval av internationella snacks och varor, inklusive svenska produkter.",
-                "pt": "Um minimercado especializado em Portimão que oferece uma variedade de lanches e produtos internacionais, incluindo produtos suecos."
+                "en": "A specialty minimarket in Portimão offering a variety of international snacks and goods, including Swedish products. They have been reported to always have a steady supply of Nicotine pouches (tobacco-free snus).",
+                "se": "En specialiserad minimarknad i Portimão som erbjuder ett urval av internationella snacks och varor, inklusive svenska produkter. De har rapporterats att alltid ha ett stabilt utbud av nikotinpåsar (tobaksfritt snus).",
+                "pt": "Um minimercado especializado em Portimão que oferece uma variedade de lanches e produtos internacionais, incluindo produtos suecos. Foi relatado que eles sempre têm um fornecimento constante de bolsas de nicotina (snus sem tabaco)."
             }
         }
     ]
