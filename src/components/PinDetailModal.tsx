@@ -1,10 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Location } from '../types';
+import { EnhancedLocation } from '../types';
 import '../styles/PinDetailModal.css';
 
 interface PinDetailModalProps {
-    location: Location;
+    location: EnhancedLocation;
     onClose: () => void;
     language: 'en' | 'se' | 'pt';
 }
@@ -46,6 +46,20 @@ const PinDetailModal: React.FC<PinDetailModalProps> = ({
 
                 <div className="modal-body">
                     <p className="description">{location.description[language]}</p>
+
+                    {/* Display categories */}
+                    {location.categories && location.categories.length > 0 && (
+                        <div className="info-section">
+                            <h3>{t('categories')}</h3>
+                            <div className="categories-list">
+                                {location.categories.map(category => (
+                                    <span key={category.id} className="category-badge">
+                                        {category.name[language]}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    )}
 
                     {location.website && (
                         <div className="info-section">

@@ -33,6 +33,13 @@ export interface Location {
   categoryId?: string; // Added when processing data
 }
 
+// Enhanced location with multiple category sources
+export interface EnhancedLocation extends Location {
+  categories: CategoryData[];
+  primaryCategoryId: string;
+  currentCategoryId?: string;
+}
+
 export interface PinData {
   category: CategoryData;
   locations: Location[];

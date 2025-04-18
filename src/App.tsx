@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import MapContainer from './components/MapContainer';
 import PinDetailModal from './components/PinDetailModal';
-import { loadAllPinData } from './services/dataService';
-import { CategoryData, Location, PinData } from './types';
+import { loadAllPinData, processLocations } from './services/dataService';
+import { CategoryData, EnhancedLocation } from './types';
 import './styles/App.css';
 
 const App: React.FC = () => {
     const [categories, setCategories] = useState<CategoryData[]>([]);
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-    const [locations, setLocations] = useState<Location[]>([]);
-    const [selectedPin, setSelectedPin] = useState<Location | null>(null);
+    const [locations, setLocations] = useState<EnhancedLocation[]>([]);
+    const [selectedPin, setSelectedPin] = useState<EnhancedLocation | null>(null);
     const [language, setLanguage] = useState<'en' | 'se' | 'pt'>('en');
     const [isLoading, setIsLoading] = useState<boolean>(true);
 
@@ -18,20 +18,17 @@ const App: React.FC = () => {
         const fetchData = async () => {
             try {
                 const pinData = await loadAllPinData();
-                setCategories(pinData.map(data => data.category));
+
+                // Extract unique categories
+                const uniqueCategories = pinData.map(data => data.category);
+                setCategories(uniqueCategories);
 
                 // Set all categories as initially selected
-                setSelectedCategories(pinData.map(data => data.category.id));
+                setSelectedCategories(uniqueCategories.map(cat => cat.id));
 
-                // Flatten all locations across categories
-                const allLocations = pinData.flatMap(data =>
-                    data.locations.map(location => ({
-                        ...location,
-                        categoryId: data.category.id
-                    }))
-                );
-
-                setLocations(allLocations);
+                // Process locations to handle multiple category sources
+                const processedLocations = processLocations(pinData);
+                setLocations(processedLocations);
             } catch (error) {
                 console.error("Error loading pin data:", error);
             } finally {
@@ -52,7 +49,7 @@ const App: React.FC = () => {
         });
     };
 
-    const handlePinClick = (location: Location) => {
+    const handlePinClick = (location: EnhancedLocation) => {
         setSelectedPin(location);
     };
 
@@ -60,9 +57,32 @@ const App: React.FC = () => {
         setSelectedPin(null);
     };
 
-    const filteredLocations = locations.filter(location =>
-        selectedCategories.includes(location.categoryId as string)
-    );
+    // Filter locations based on selected categories
+    const filteredLocations = locations.filter(location => {
+        const hasActiveCategory = location.categories.some(
+            category => selectedCategories.includes(category.id)
+        );
+
+        console.log(`Location ${location.name} active: ${hasActiveCategory}`, {
+            locationCategories: location.categories.map(c => c.id),
+            selectedCategories,
+        });
+
+        return hasActiveCategory;
+    });
+
+    // Log the filtered locations to help debug
+    useEffect(() => {
+        if (filteredLocations.length > 0) {
+            console.log("Filtered Locations:", filteredLocations.map(loc => ({
+                name: loc.name,
+                categories: loc.categories.map(c => c.id),
+                activeCategories: loc.categories
+                    .filter(c => selectedCategories.includes(c.id))
+                    .map(c => c.id)
+            })));
+        }
+    }, [filteredLocations, selectedCategories]);
 
     return (
         <div className="app-container">
@@ -77,6 +97,7 @@ const App: React.FC = () => {
                 locations={filteredLocations}
                 onPinClick={handlePinClick}
                 language={language}
+                selectedCategories={selectedCategories}
             />
             {selectedPin && (
                 <PinDetailModal

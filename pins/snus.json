@@ -1,0 +1,65 @@
+{
+    "category": {
+        "id": "snus",
+        "name": {
+            "en": "Snus",
+            "se": "Snus",
+            "pt": "Snus"
+        }
+    },
+    "locations": [
+        {
+            "id": "dmaxcom",
+            "name": "Dmaxcom",
+            "geoposition": {
+                "lat": 37.1395,
+                "lon": -8.5377
+            },
+            "located": "https://www.google.com/maps?q=37.1395,-8.5377",
+            "thumbnail": null,
+            "website": null,
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": null,
+            "tags": [
+                "Swedish goods",
+                "electronics",
+                "gadgets",
+                "snus"
+            ],
+            "description": {
+                "en": "A store in Portimão offering Swedish goods and electronics.",
+                "se": "En butik i Portimão som erbjuder svenska varor och elektronik.",
+                "pt": "Uma loja em Portimão que oferece produtos suecos e eletrônicos."
+            }
+        },
+        {
+            "id": "maravilhas-nordicas",
+            "name": "Maravilhas Nórdicas",
+            "geoposition": {
+                "lat": 38.6945,
+                "lon": -9.3563
+            },
+            "located": "https://www.google.com/maps?q=38.6945,-9.3563",
+            "thumbnail": "https://scontent.flis5-4.fna.fbcdn.net/v/t51.75761-15/482502513_18057433952477477_3385454275470186393_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ttbCCpJ_V7kQ7kNvwEUDXFF&_nc_oc=AdmQbHV0UuwiFWEgkX5YceSCvuj-XdCrMTlQKt5Kgecizo_KxhjTQ-Lw28z-FCY412E&_nc_zt=23&_nc_ht=scontent.flis5-4.fna&_nc_gid=974EIcIsUkH7WqyBWjEZtw&oh=00_AfGRtizqvqEHcy-eN9n3DTItgwVHFs8ScXG5cjvZ8ljQcg&oe=680751E0",
+            "website": "https://maravilhasnordicas.wordpress.com/",
+            "socials": {
+                "facebook": "https://www.facebook.com/p/Maravilhas-Nordicas-100066646728790/",
+                "instagram": "https://www.instagram.com/maravilhasnordicas/"
+            },
+            "open_hours": "Please check Google for current hours",
+            "tags": [
+                "snus",
+                "nicotine pouches",
+                "nordic"
+            ],
+            "description": {
+                "en": "A Nordic mini-market in Parede offering Swedish and Scandinavian food, snacks, and seasonal items.",
+                "se": "En nordisk minimarknad i Parede med svenska och skandinaviska livsmedel, snacks och säsongsvaror.",
+                "pt": "Uma mini-mercearia nórdica em Parede com alimentos suecos e escandinavos, lanches e itens sazonais."
+            }
+        }
+    ]
+}

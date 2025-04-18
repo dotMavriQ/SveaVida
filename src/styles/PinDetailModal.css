@@ -115,6 +115,21 @@
     border-radius: 4px;
 }
 
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.category-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
     .modal-content {
         max-width: 100%;

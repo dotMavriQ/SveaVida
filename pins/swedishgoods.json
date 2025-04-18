@@ -68,32 +68,6 @@
                 "se": "En specialiserad minimarknad i Portimão som erbjuder ett urval av internationella snacks och varor, inklusive svenska produkter.",
                 "pt": "Um minimercado especializado em Portimão que oferece uma variedade de lanches e produtos internacionais, incluindo produtos suecos."
             }
-        },
-        {
-            "id": "dmaxcom",
-            "name": "Dmaxcom",
-            "geoposition": {
-                "lat": 37.1395,
-                "lon": -8.5377
-            },
-            "located": "https://www.google.com/maps?q=37.1395,-8.5377",
-            "thumbnail": null,
-            "website": null,
-            "socials": {
-                "facebook": null,
-                "instagram": null
-            },
-            "open_hours": null,
-            "tags": [
-                "Swedish goods",
-                "electronics",
-                "gadgets"
-            ],
-            "description": {
-                "en": "A store in Portimão offering Swedish goods and electronics.",
-                "se": "En butik i Portimão som erbjuder svenska varor och elektronik.",
-                "pt": "Uma loja em Portimão que oferece produtos suecos e eletrônicos."
-            }
         }
     ]
 }
