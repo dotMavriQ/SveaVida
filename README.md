@@ -1,7 +1,7 @@
 # SveaVida
 
 <div align="center">
-  <img src="public/logo.png" alt="SveaVida Logo" width="200" />
+  <img src="https://raw.githubusercontent.com/dotMavriQ/SveaVida/refs/heads/main/android-chrome-192x192.png" alt="SveaVida Logo" width="200" />
   <p><i>Swedish Presence in Portugal | Svensk närvaro i Portugal | Presença sueca em Portugal</i></p>
 </div>
 
