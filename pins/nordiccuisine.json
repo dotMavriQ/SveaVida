@@ -1,0 +1,122 @@
+{
+    "category": {
+        "id": "nordic_cuisine",
+        "name": {
+            "en": "Nordic Cuisine",
+            "se": "Nordisk mat",
+            "pt": "Cozinha nórdica"
+        }
+    },
+    "locations": [
+        {
+            "id": "flat_cafe_lisbon",
+            "name": "Flat Café",
+            "geoposition": {
+                "lat": 38.7125,
+                "lon": -9.1456
+            },
+            "located": "https://www.google.com/maps?q=38.7125,-9.1456",
+            "thumbnail": "https://www.luxurytravelmagazine.com/files/593/0/83110/flat-cafe_bu.jpg",
+            "website": "https://flat.cafe.lisbon.tilda.ws/",
+            "socials": {
+                "facebook": null,
+                "instagram": "https://www.instagram.com/flat.cafe.lisbon/"
+            },
+            "open_hours": "Monday-Sunday: 09:00 - 17:00",
+            "tags": [
+                "smørrebrød",
+                "open sandwiches",
+                "Scandinavian toast",
+                "coffee",
+                "brunch"
+            ],
+            "description": {
+                "en": "Flat Café offers Scandinavian open toasts made with local ingredients, specialty coffee, and natural wine, all in a cozy atmosphere.",
+                "se": "Flat Café erbjuder skandinaviska öppna smörgåsar med lokala ingredienser, specialkaffe och naturvin i en mysig atmosfär.",
+                "pt": "Flat Café oferece tostas abertas escandinavas feitas com ingredientes locais, café especial e vinho natural, tudo em um ambiente acolhedor."
+            }
+        },
+        {
+            "id": "hygge_kaffe_lisbon",
+            "name": "Hygge Kaffe",
+            "geoposition": {
+                "lat": 38.7169,
+                "lon": -9.1399
+            },
+            "located": "https://www.google.com/maps?q=38.7169,-9.1399",
+            "thumbnail": "https://cdn.website.dish.co/media/9b/8e/3704879/Hygge-Kaffe-216551302-872063567075967-7087377286214186115-n-jpg.jpg",
+            "website": "https://hyggekaffe.pt/en/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": "Monday-Sunday: 08:00 - 18:00",
+            "tags": [
+                "brunch",
+                "coffee",
+                "pastries",
+                "Scandinavian food"
+            ],
+            "description": {
+                "en": "Hygge Kaffe is a charming café inspired by the Nordic concept of well-being, offering a diverse menu with international and local flavors.",
+                "se": "Hygge Kaffe är ett charmigt café inspirerat av det nordiska välbefinnandekonceptet, med en varierad meny av internationella och lokala smaker.",
+                "pt": "Hygge Kaffe é um café encantador inspirado no conceito nórdico de bem-estar, oferecendo um menu diversificado com sabores internacionais e locais."
+            }
+        },
+        {
+            "id": "akvavit_vilamoura",
+            "name": "Akvavit",
+            "geoposition": {
+                "lat": 37.0776449,
+                "lon": -8.1219039
+            },
+            "located": "https://www.google.com/maps/place/Akvavit/@37.077585,-8.1219146,17z/data=!4m6!3m5!1s0xd1ab5921c34724b:0x2c255b691fcfcb9c!8m2!3d37.0776449!4d-8.1219039!16s%2Fg%2F1tczrmdz?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D",
+            "thumbnail": "https://scontent.flis5-3.fna.fbcdn.net/v/t39.30808-6/491272204_122225894036231407_4124798442787215306_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fu5ybfJgeIkQ7kNvwGg6SnJ&_nc_oc=AdlFtD0pez0rpGuhHNuE5StgFh0IwQCPttlXAcrGy19kQ7PKxOwsEZqfHLfy1KSFyFE&_nc_zt=23&_nc_ht=scontent.flis5-3.fna&_nc_gid=7yGlt_-dpdOD7qEHWVwkSQ&oh=00_AfERwsAFwM0c858HoDb3NXxJS5rfcrz3v15LPIsZnP1hkg&oe=680755D8",
+            "website": "https://restauranteakvavit.com/",
+            "socials": {
+                "facebook": "https://www.facebook.com/RestauranteAkvavit/",
+                "instagram": "https://www.instagram.com/restaurante.akvavit/"
+            },
+            "open_hours": "Monday-Sunday: 09:00 - 02:00",
+            "tags": [
+                "seafood",
+                "Nordic dishes",
+                "fine dining",
+                "marina view"
+            ],
+            "description": {
+                "en": "Akvavit Restaurant blends Swedish and Portuguese culinary traditions, offering fresh seafood and Nordic specialties in a marina setting.",
+                "se": "Restaurang Akvavit kombinerar svenska och portugisiska kulinariska traditioner, med färska skaldjur och nordiska specialiteter vid marinan.",
+                "pt": "O Restaurante Akvavit combina tradições culinárias suecas e portuguesas, oferecendo frutos do mar frescos e especialidades nórdicas em um ambiente de marina."
+            }
+        },
+        {
+            "id": "polaroskas_quinta_pisao",
+            "name": "Polaroskas",
+            "geoposition": {
+                "lat": 38.7540,
+                "lon": -9.4440
+            },
+            "located": "https://www.google.com/maps?q=38.7540,-9.4440",
+            "thumbnail": "https://scontent.flis5-4.fna.fbcdn.net/v/t39.30808-6/469883828_1496232521072745_8675107798126655287_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=o2vZlC5egdUQ7kNvwEg5L3M&_nc_oc=AdmiCZbYuvLhvoh8q6BrzRnVFAjuuUXXLADGyuZf3o9M1T3vHGISZ0lGArUKY4vkNWA&_nc_zt=23&_nc_ht=scontent.flis5-4.fna&_nc_gid=qRuyNChM0J23WWPz9VeNpw&oh=00_AfGBmQ5iI2pAmSUt_SiQ7W583Wf6wC0LFoDgAMF2sOxNyA&oe=680745DD",
+            "website": null,
+            "socials": {
+                "facebook": "https://www.facebook.com/Polaroskasstreetfood/",
+                "instagram": null
+            },
+            "open_hours": "Varies by event",
+            "tags": [
+                "street food",
+                "Polarbröd",
+                "Scandinavian snacks",
+                "events",
+                "festivals"
+            ],
+            "description": {
+                "en": "Polaroskas serves Scandinavian-inspired street food at various events and festivals, bringing Nordic flavors to Portugal.",
+                "se": "Polaroskas serverar skandinaviskt inspirerad gatumat på olika evenemang och festivaler, och för med sig nordiska smaker till Portugal.",
+                "pt": "Polaroskas serve comida de rua inspirada na Escandinávia em vários eventos e festivais, trazendo sabores nórdicos para Portugal."
+            }
+        }
+    ]
+}

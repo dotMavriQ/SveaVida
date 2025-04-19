@@ -1,0 +1,44 @@
+{
+    "category": {
+        "id": "aivar",
+        "name": {
+            "en": "Aivar",
+            "se": "Aivar",
+            "pt": "Aivar"
+        }
+    },
+    "locations": [
+        {
+            "id": "berezka-estoril",
+            "name": "Berezka Estoril",
+            "geoposition": {
+                "lat": 38.7130,
+                "lon": -9.3967
+            },
+            "located": "https://www.google.com/maps?q=38.7130,-9.3967",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOGrIpzYa-LRBhELK3E766rWP_lpBYkBEsTd3Er=w203-h152-k-no",
+            "website": null,
+            "socials": {
+                "facebook": "https://www.facebook.com/MiniMercadoBerezka/"
+            },
+            "open_hours": {
+                "mon-sat": "10:00–14:00, 15:00–20:00",
+                "sun": "10:00–14:00, 15:00–19:00"
+            },
+            "tags": [
+                "aivar",
+                "podravka",
+                "pickled vegetables",
+                "Eastern European",
+                "Russian",
+                "Ukrainian",
+                "preserves"
+            ],
+            "description": {
+                "en": "Berezka Estoril is a market offering a wide range of Eastern European products, including Podravka's Aivar, pickled vegetables, and other traditional foods.",
+                "se": "Berezka Estoril är en marknad som erbjuder ett brett utbud av östeuropeiska produkter, inklusive Podravkas Aivar, inlagda grönsaker och andra traditionella livsmedel.",
+                "pt": "A Berezka Estoril é um mercado que oferece uma ampla variedade de produtos do Leste Europeu, incluindo Aivar da Podravka, vegetais em conserva e outros alimentos tradicionais."
+            }
+        }
+    ]
+}

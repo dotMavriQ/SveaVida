@@ -1,0 +1,95 @@
+{
+    "category": {
+        "id": "snus",
+        "name": {
+            "en": "Snus",
+            "se": "Snus",
+            "pt": "Snus"
+        }
+    },
+    "locations": [
+        {
+            "id": "dmaxcom",
+            "name": "Dmaxcom",
+            "geoposition": {
+                "lat": 37.1395,
+                "lon": -8.5377
+            },
+            "located": "https://www.google.com/maps?q=37.1395,-8.5377",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8Vw_yzLIqiK7ILVQzPwCoxnW7ojORMorqnUvP7SvcAAOa9YGE0X32r5w1ziiRSRt70mjXIdeVDXMV_b4uwaoVVGW-2YcxqDBXBPqW8PlzHPoeR-q8IPc1ZghbGwrpUQXWIU-N0=s1360-w1360-h1020",
+            "website": null,
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": null,
+            "tags": [
+                "indian snus",
+                "electronics",
+                "gadgets",
+                "snus"
+            ],
+            "description": {
+                "en": "An electronics store in Portimão rumored to offer <a href=\"https://m.media-amazon.com/images/I/61oj0CW1fAL._AC_UF1000,1000_QL80_.jpg\">Cool Lip Snus</a> from India, which closely resembles Swedish portion snus. Though this would violate <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0040\">the 2014 EU directive</a>, some locals insist it's available... if you know what to ask for.",
+                "se": "En elektronikbutik i Portimão som enligt rykten säljer <a href=\"https://m.media-amazon.com/images/I/61oj0CW1fAL._AC_UF1000,1000_QL80_.jpg\">Cool Lip Snus</a> från Indien, vilket liknar svenskt portionssnus. Trots att detta skulle strida mot <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0040\">EU-direktivet från 2014</a>, hävdar vissa lokalbor att det finns tillgängligt... om man vet vad man ska fråga efter.",
+                "pt": "Uma loja de eletrônicos em Portimão onde se rumoreja que oferecem <a href=\"https://m.media-amazon.com/images/I/61oj0CW1fAL._AC_UF1000,1000_QL80_.jpg\">Cool Lip Snus</a> da Índia, semelhante ao snus sueco em porções. Embora isso viole <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0040\">a diretiva da UE de 2014</a>, alguns moradores locais insistem que está disponível... se você souber o que pedir."
+            }
+        },
+        {
+            "id": "maravilhas-nordicas",
+            "name": "Maravilhas Nórdicas",
+            "geoposition": {
+                "lat": 38.6945,
+                "lon": -9.3563
+            },
+            "located": "https://www.google.com/maps?q=38.6945,-9.3563",
+            "thumbnail": "https://scontent.flis5-4.fna.fbcdn.net/v/t51.75761-15/482502513_18057433952477477_3385454275470186393_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ttbCCpJ_V7kQ7kNvwEUDXFF&_nc_oc=AdmQbHV0UuwiFWEgkX5YceSCvuj-XdCrMTlQKt5Kgecizo_KxhjTQ-Lw28z-FCY412E&_nc_zt=23&_nc_ht=scontent.flis5-4.fna&_nc_gid=974EIcIsUkH7WqyBWjEZtw&oh=00_AfGRtizqvqEHcy-eN9n3DTItgwVHFs8ScXG5cjvZ8ljQcg&oe=680751E0",
+            "website": "https://maravilhasnordicas.wordpress.com/",
+            "socials": {
+                "facebook": "https://www.facebook.com/p/Maravilhas-Nordicas-100066646728790/",
+                "instagram": "https://www.instagram.com/maravilhasnordicas/"
+            },
+            "open_hours": "Please check Google for current hours",
+            "tags": [
+                "snus",
+                "nicotine pouches",
+                "nordic"
+            ],
+            "description": {
+                "en": "A Nordic mini-market in Parede offering Swedish and Scandinavian food, snacks, and seasonal items.",
+                "se": "En nordisk minimarknad i Parede med svenska och skandinaviska livsmedel, snacks och säsongsvaror.",
+                "pt": "Uma mini-mercearia nórdica em Parede com alimentos suecos e escandinavos, lanches e itens sazonais."
+            }
+        },
+        {
+            "id": "go-minimarket",
+            "name": "Go Minimarket",
+            "geoposition": {
+                "lat": 37.1369,
+                "lon": -8.5383
+            },
+            "located": "https://www.google.com/maps?q=37.1369,-8.5383",
+            "thumbnail": "https://scontent.flis5-3.fna.fbcdn.net/v/t39.30808-6/480919879_1142095634377751_1479927770779639689_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p7uml-5z2kkQ7kNvwHzCUL7&_nc_oc=AdlM7G7puPowjEfqF81PF4lNQUgGybW4Q32u-fuFD0iZqDvHHBShzBqoNbEeo13X49M&_nc_zt=23&_nc_ht=scontent.flis5-3.fna&_nc_gid=V1LbGCX25ZF5sNSOw8AByQ&oh=00_AfHpOXYUhlxjlpuj6CB2zLn2LVa6LljKY0NPkgJrsLzMtA&oe=68074EB1",
+            "website": null,
+            "socials": {
+                "facebook": "https://www.facebook.com/gominimarket.eu/",
+                "instagram": null
+            },
+            "open_hours": "Tue–Fri: 10:00–13:00, 14:00–17:00; Sat: 10:00–14:00",
+            "tags": [
+                "snus",
+                "nicotine pouches",
+                "Swedish crisps",
+                "cheese doodles",
+                "peanut butter rings",
+                "Dutch",
+                "Scandi"
+            ],
+            "description": {
+                "en": "A specialty minimarket in Portimão offering a variety of international snacks and goods, including Swedish products. They have been reported to always have a steady supply of Nicotine pouches (tobacco-free snus).",
+                "se": "En specialiserad minimarknad i Portimão som erbjuder ett urval av internationella snacks och varor, inklusive svenska produkter. De har rapporterats att alltid ha ett stabilt utbud av nikotinpåsar (tobaksfritt snus).",
+                "pt": "Um minimercado especializado em Portimão que oferece uma variedade de lanches e produtos internacionais, incluindo produtos suecos. Foi relatado que eles sempre têm um fornecimento constante de bolsas de nicotina (snus sem tabaco)."
+            }
+        }
+    ]
+}
