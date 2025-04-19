@@ -1,67 +1,81 @@
-# SveaVida - Testing Guide
+# SveaVida
 
-## Setting Up the Development Environment
+<div align="center">
+  <img src="public/logo.png" alt="SveaVida Logo" width="200" />
+  <p><i>Swedish Presence in Portugal | Svensk närvaro i Portugal | Presença sueca em Portugal</i></p>
+</div>
 
-### Prerequisites
-- Node.js (v14 or later)
-- npm or yarn
+---
 
-### Initial Setup
-1. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn
-   ```
+## English
 
-2. Create a `public` folder for static assets:
-   ```bash
-   mkdir -p public/images
-   ```
+### About SveaVida
 
-3. Copy any pin images and the favicon to the public folder:
-   ```bash
-   # Example:
-   cp path/to/favicon.ico public/
-   cp path/to/pin-images/* public/images/
-   ```
+SveaVida is an interactive web application that maps the Swedish presence in Portugal. It helps Swedes, locals, and tourists discover Swedish establishments, products, and cultural points of interest throughout Portugal.
 
-## Running the Application
+### Features
 
-Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Interactive map showing Swedish locations across Portugal
+- Filter locations by categories (restaurants, shops, services, etc.)
+- Detailed information about each location including descriptions, opening hours, and contact details
+- Multilingual support (English, Swedish, Portuguese)
+- Mobile-friendly interface
 
-This will start the application on http://localhost:5173 (default Vite port).
+### Community Updates
 
-## Testing Different Features
+SveaVida is maintained with the support of the PortugalSvenskar Community. We regularly update our database with:
 
-### 1. Data Loading
-- Check the browser console to verify data is loading from JSON files
-- If there are issues, ensure the JSON files are properly formatted and accessible
+- New Swedish establishments in Portugal
+- Product availability updates
 
-### 2. Map Functionality
-- Verify the map centers on Portugal
-- Confirm pins appear at correct coordinates
-- Test clicking pins to show details
+To suggest a new location or update existing information, please contact us through our website or join the PortugalSvenskar Community.
 
-### 3. Category Filtering
-- Toggle category checkboxes and verify pins update accordingly
-- Test with multiple categories selected/deselected
+---
 
-### 4. Language Switching
-- Switch between languages and verify text updates throughout the application
-- Check both UI elements and pin data content
+## Svenska
 
-### 5. Responsive Design
-- Test the application at various screen sizes
-- Use browser developer tools to simulate mobile devices
+### Om SveaVida
 
-## Troubleshooting
+SveaVida är en interaktiv webbapplikation som kartlägger den svenska närvaron i Portugal. Den hjälper svenskar, lokalbefolkning och turister att upptäcka svenska etablissemang, produkter och kulturella sevärdheter i hela Portugal.
 
-- **JSON Loading Issues**: Ensure proper CORS configuration if loading from filesystem
-- **Map Display Problems**: Check if Leaflet CSS is properly loaded
-- **Component Errors**: Look for detailed error messages in browser console
+### Funktioner
+
+- Interaktiv karta som visar svenska platser över hela Portugal
+- Filtrera platser efter kategorier (restauranger, butiker, tjänster, etc.)
+- Detaljerad information om varje plats inklusive beskrivningar, öppettider och kontaktuppgifter
+- Flerspråkigt stöd (engelska, svenska, portugisiska)
+- Mobilanpassat gränssnitt
+
+### Gemenskapsuppdateringar
+
+SveaVida underhålls med stöd av Facebookgruppen PortugalSvenskar . Vi uppdaterar regelbundet vår databas med:
+
+- Nya Svensk-influerade etablissemang i Portugal
+- Uppdateringar om produkttillgänglighet
+
+För att föreslå en ny plats eller uppdatera befintlig information, vänligen kontakta oss via vår webbplats eller gå med i PortugalSvenskar-gemenskapen.
+
+---
+
+## Português
+
+### Sobre o SveaVida
+
+O SveaVida é uma aplicação web interativa que mapeia a presença sueca em Portugal. Ajuda suecos, habitantes locais e turistas a descobrirem estabelecimentos suecos, produtos e pontos de interesse cultural por todo o Portugal.
+
+### Funcionalidades
+
+- Mapa interativo mostrando localizações suecas por todo o Portugal
+- Filtrar localizações por categorias (restaurantes, lojas, serviços, etc.)
+- Informação detalhada sobre cada localização incluindo descrições, horários e detalhes de contacto
+- Suporte multilingue (Inglês, Sueco, Português)
+- Interface adaptada para dispositivos móveis
+
+### Atualizações da Comunidade
+
+O SveaVida é mantido com o apoio da Comunidade PortugalSvenskar. Atualizamos regularmente a nossa base de dados com:
+
+- Novos estabelecimentos suecos em Portugal
+- Atualizações sobre disponibilidade de produtos
+
+Para sugerir uma nova localização ou atualizar informações existentes, por favor contacte-nos através do nosso website ou junte-se à Comunidade PortugalSvenskar.
