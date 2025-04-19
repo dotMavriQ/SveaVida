@@ -1,0 +1,167 @@
+{
+    "category": {
+        "id": "ikea",
+        "name": {
+            "en": "IKEA",
+            "se": "IKEA",
+            "pt": "IKEA"
+        }
+    },
+    "locations": [
+        {
+            "id": "ikea_alfragide",
+            "name": "IKEA Alfragide",
+            "geoposition": {
+                "lat": 38.72913,
+                "lon": -9.21621
+            },
+            "located": "https://www.google.com/maps?q=38.72913,-9.21621",
+            "thumbnail": "https://static.where-e.com/Portugal/Lisbon_District/Alfragide/Ikea-Alfragide_e8a59f7a3ca6cc1b31816606144b6b00.jpg",
+            "website": "https://www.ikea.com/pt/en/stores/alfragide/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": {
+                "store": "Mon–Sun: 10:00–22:00",
+                "restaurant": "Mon–Sun: 09:30–21:30"
+            },
+            "tags": [
+                "furniture",
+                "home decor",
+                "Swedish food",
+                "restaurant",
+                "bistro"
+            ],
+            "description": {
+                "en": "IKEA Alfragide offers a wide range of furniture and home accessories, plus a Swedish restaurant and food market.",
+                "se": "IKEA Alfragide erbjuder ett brett utbud av möbler och heminredning, samt en svensk restaurang och matmarknad.",
+                "pt": "A IKEA Alfragide oferece uma grande variedade de móveis e acessórios, além de restaurante e mercado sueco."
+            }
+        },
+        {
+            "id": "ikea_loures",
+            "name": "IKEA Loures",
+            "geoposition": {
+                "lat": 38.81646,
+                "lon": -9.14796
+            },
+            "located": "https://www.google.com/maps?q=38.81646,-9.14796",
+            "thumbnail": "https://backoffice.hipersuper.pt/app/uploads/2010/04/ikea_loures.jpg",
+            "website": "https://www.ikea.com/pt/en/stores/loures/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": {
+                "store": "Mon–Sun: 10:00–22:00",
+                "restaurant": "Mon–Sun: 09:30–21:30"
+            },
+            "tags": [
+                "furniture",
+                "home decor",
+                "Swedish food",
+                "restaurant",
+                "bistro"
+            ],
+            "description": {
+                "en": "IKEA Loures provides a comprehensive selection of furnishings and Swedish-style dining.",
+                "se": "IKEA Loures erbjuder ett stort urval av inredning och svensk matupplevelse.",
+                "pt": "A IKEA Loures oferece uma seleção abrangente de mobiliário e refeições ao estilo sueco."
+            }
+        },
+        {
+            "id": "ikea_matosinhos",
+            "name": "IKEA Matosinhos",
+            "geoposition": {
+                "lat": 41.18444,
+                "lon": -8.69628
+            },
+            "located": "https://www.google.com/maps?q=41.18444,-8.69628",
+            "thumbnail": "https://www.leca-palmeira.com/wordpress/wp-content/uploads/2016/02/ikea-matosinhos.jpg",
+            "website": "https://www.ikea.com/pt/en/stores/matosinhos/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": {
+                "store": "Mon–Sun: 10:00–22:00",
+                "restaurant": "Mon–Sun: 09:30–21:30"
+            },
+            "tags": [
+                "furniture",
+                "home decor",
+                "Swedish food",
+                "restaurant",
+                "bistro"
+            ],
+            "description": {
+                "en": "IKEA Matosinhos brings Scandinavian furniture and cuisine to northern Portugal.",
+                "se": "IKEA Matosinhos erbjuder skandinaviska möbler och mat i norra Portugal.",
+                "pt": "A IKEA Matosinhos traz móveis e cozinha escandinava ao norte de Portugal."
+            }
+        },
+        {
+            "id": "ikea_braga",
+            "name": "IKEA Braga",
+            "geoposition": {
+                "lat": 41.5503,
+                "lon": -8.4265
+            },
+            "located": "https://www.google.com/maps?q=41.5503,-8.4265",
+            "thumbnail": "https://cdn.jornaldenegocios.pt/images/2016-01/img_900x560$2016_01_25_12_33_00_274035.jpg",
+            "website": "https://www.ikea.com/pt/en/stores/braga/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": {
+                "store": "Mon–Sun: 10:00–22:00",
+                "restaurant": "Mon–Sun: 09:30–21:30"
+            },
+            "tags": [
+                "furniture",
+                "home decor",
+                "Swedish food",
+                "restaurant",
+                "bistro"
+            ],
+            "description": {
+                "en": "IKEA Braga serves the Minho region with home goods and traditional Swedish fare.",
+                "se": "IKEA Braga betjänar Minho-regionen med heminredning och traditionell svensk mat.",
+                "pt": "A IKEA Braga serve a região do Minho com artigos para casa e comida tradicional sueca."
+            }
+        },
+        {
+            "id": "ikea_loule",
+            "name": "IKEA Loulé",
+            "geoposition": {
+                "lat": 37.13792,
+                "lon": -8.02022
+            },
+            "located": "https://www.google.com/maps?q=37.13792,-8.02022",
+            "thumbnail": "https://images.myguide-cdn.com/algarve/companies/ikea-loule/large/ikea-loule-460461.jpg",
+            "website": "https://www.ikea.com/pt/en/stores/loule/",
+            "socials": {
+                "facebook": null,
+                "instagram": null
+            },
+            "open_hours": {
+                "store": "Mon–Sun: 10:00–22:00",
+                "restaurant": "Mon–Sun: 09:30–21:30"
+            },
+            "tags": [
+                "furniture",
+                "home decor",
+                "Swedish food",
+                "restaurant",
+                "bistro"
+            ],
+            "description": {
+                "en": "IKEA Loulé offers full IKEA services in the Algarve, including home solutions and Swedish meals.",
+                "se": "IKEA Loulé erbjuder fulla IKEA-tjänster i Algarve med hemlösningar och svensk mat.",
+                "pt": "A IKEA Loulé oferece serviços IKEA completos no Algarve, incluindo soluções para o lar e refeições suecas."
+            }
+        }
+    ]
+}

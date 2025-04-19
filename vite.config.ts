@@ -1,10 +1,20 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
+import { cpSync } from 'fs';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      name: 'copy-pins-to-build',
+      closeBundle() {
+        // Copy pins directory to dist during build
+        cpSync('pins', 'dist/pins', { recursive: true });
+      }
+    }
+  ],
   base: '',
   resolve: {
     alias: {
