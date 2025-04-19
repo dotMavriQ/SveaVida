@@ -1,0 +1,47 @@
+name: Build and Deploy to Release Branch
+
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write # NEEDED to push to the 'release' branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main # Explicitly checkout main
+
+      # --- Setup Build Environment (Node.js) ---
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # --- Install Dependencies ---
+      - name: Install dependencies
+        run: npm ci
+
+      # --- Build Project ---
+      - name: Build project
+        run: npm run build
+
+      # --- Deploy Build Output to Release Branch ---
+      - name: Deploy to release branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: release # The branch to deploy the built code TO
+          publish_dir: ./dist # Build output directory
+          force_orphan: true # Creates a clean history on the release branch each time
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy latest build to release branch'
+          cname: sveavida.digital # Ensure CNAME is preserved
